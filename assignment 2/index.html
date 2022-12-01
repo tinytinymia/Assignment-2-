@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <!-- including this line allows the the script to download at the same time as the html is parsing, after those are both done then the script can execute meaning it'll load up the page faster -->
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <!-- I have added a suggestion to guild users on what to add to the list -->
+    <label>
+      Include Wishlist Item Here:
+      <input type="text" data-input />
+    </label>
+
+    <!-- With the button added I then named it something to relate to label -->
+    <button data-button onclick="submit()">Add to list</button>
+    <!-- To give further suggestion to the page users I wrote up a data list code with some example items -->
+    <ul data-list>
+      <li>Iphone</li>
+      <li>Mac Book Pro</li>
+      <li>Ipad</li>
+    </ul>
+  </body>
+</html>
